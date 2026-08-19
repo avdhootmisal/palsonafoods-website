@@ -1,0 +1,11 @@
+Changes completed:
+1. Mobile Number accepts digits only and requires exactly 10 digits.
+2. State is now a dropdown with all 28 Indian States and 8 Union Territories.
+3. Default selected State: Maharashtra.
+4. Rating dropdown added:
+   1 - Very Poor
+   2 - Poor
+   3 - Average
+   4 - Good
+   5 - Excellent
+5. Rating selection uses different visual colours from low to high.

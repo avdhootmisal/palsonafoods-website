@@ -1,0 +1,18 @@
+PALSONA FOODS Website Enquiry Form Setup
+
+The Contact Us form now sends enquiries to:
+palsonafoods@gmail.com
+
+Subject format:
+WEBSITE_ENQUIRY_<NAME>_<CITY>
+
+IMPORTANT - one-time FormSubmit activation:
+1. Deploy the updated files to your GitHub Pages website.
+2. Submit one test enquiry from the live website.
+3. FormSubmit will send an activation email to palsonafoods@gmail.com.
+4. Open that email and click the activation/confirmation link.
+5. After activation, future enquiries will be delivered automatically.
+
+No backend server is required. This works with the existing GitHub Pages static website.
+
+The email form service used is FormSubmit (formsubmit.co).
