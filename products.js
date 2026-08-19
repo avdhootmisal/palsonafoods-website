@@ -1,1 +1,0 @@
-console.log('PALSONA Sprint 2 loaded');

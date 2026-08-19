@@ -1,4 +1,0 @@
-<link rel="icon" href="assets/palsona-logo.jpg">
-<meta name="description" content="PALSONA FOODS - Premium Spices, Flour & Namkeen">
-<meta property="og:title" content="PALSONA FOODS">
-<meta property="og:description" content="Authentic Maharashtrian Grocery Products">

@@ -1,11 +1,10 @@
-Sprint 3 Installation
+PALSONA FOODS - Updated Website Files
 
-1. Copy contact.html to project root.
-2. Copy contact.css and contact.js.
-3. Add navigation link:
-<a href="contact.html">Contact</a>
+Main changes:
+- Contact Us section redesigned to match the supplied reference image
+- Updated contact details and enquiry form
+- Large PALSONA logo header
+- Spice banner and dark green footer
+- Responsive mobile layout
 
-Optional SEO tags:
-Copy contents of seo-snippets.txt into the <head> of index.html and products.html.
-Replace phone/email with actual business details.
-Replace Google Map placeholder with an embedded iframe.
+Upload all files and the assets folder to the root of the GitHub Pages repository.
