@@ -1,36 +1,78 @@
-<!DOCTYPE html>
-<html lang='en'>
+<!doctype html>
+<html lang="en">
 <head>
-<meta charset='UTF-8'><meta name='viewport' content='width=device-width,initial-scale=1'>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="PALSONA FOODS - Manufacturing, Processing and Packaging of authentic Indian food products.">
 <title>PALSONA FOODS</title>
-<link rel='stylesheet' href='styles.css'>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header class="header">
-<div class="brand">PALSONA FOODS</div>
-<nav>
-<a href="#home">Home</a><a href="#products">Products</a><a href="#about">About</a><a href="#contact">Contact</a>
-</nav>
+<header class="site-header">
+  <a class="brand" href="#home"><img src="assets/palsona-logo.png" alt="PALSONA FOODS"></a>
+  <button id="menu" aria-label="Open menu">☰</button>
+  <nav>
+    <a href="#home">Home</a><a href="#products">Products</a><a href="#about">About</a><a href="#contact">Contact</a>
+  </nav>
 </header>
-<section id="home" class="hero">
-<div class="overlay">
-<h1>Authentic Taste of Maharashtra</h1>
-<p>Manufacturing • Processing • Packaging</p>
-<a class="btn" href="#products">Explore Products</a>
-</div>
+
+<main id="home">
+<section class="hero">
+  <div class="slide active" style="background-image:url('assets/kala-tikhat.jpg')"><div class="overlay"><h1>Authentic Taste of Maharashtra</h1><p>Manufacturing • Processing • Packaging</p><a href="#products">Explore Products</a></div></div>
+  <div class="slide" style="background-image:url('assets/turmeric.jpg')"><div class="overlay"><h1>Pure Ingredients.<br>Trusted Quality.</h1><p>Carefully selected and hygienically packed.</p><a href="#products">Explore Products</a></div></div>
+  <div class="slide" style="background-image:url('assets/lasni-chivda.jpg')"><div class="overlay"><h1>Traditional Taste.<br>Everyday Joy.</h1><p>Discover PALSONA favourites for every kitchen.</p><a href="#products">Explore Products</a></div></div>
+  <button class="prev" aria-label="Previous slide">‹</button><button class="next" aria-label="Next slide">›</button><div class="dots"></div>
 </section>
-<section id="products" class="section">
-<h2>Our Products</h2>
-<div class="grid">
-<div class="card"><img src="assets/kala-tikhat.jpg"><h3>काळं तिखट<br>Kala Tikhat</h3></div>
-<div class="card"><img src="assets/turmeric.jpg"><h3>हळद<br>Turmeric</h3></div>
-<div class="card"><img src="assets/bhagar-pith.jpg"><h3>भगरपीठ<br>Bhagar Pith</h3></div>
-<div class="card"><img src="assets/lasni-chivda.jpg"><h3>लसणी चिवडा<br>Lasni Chivda</h3></div>
-<div class="card"><img src="assets/shev-chivda.jpg"><h3>शेव चिवडा<br>Shev Chivda</h3></div>
-</div>
+
+<section id="products" class="section products-section">
+  <div class="section-title"><h2>Our Products</h2><p>Traditional flavours and everyday food products.</p></div>
+  <div class="products">
+    <article><img src="assets/kala-tikhat.jpg" alt="Kala Tikhat"><div><h3>काळं तिखट</h3><p>Kala Tikhat</p></div></article>
+    <article><img src="assets/turmeric.jpg" alt="Turmeric"><div><h3>हळद</h3><p>Turmeric Powder</p></div></article>
+    <article><img src="assets/bhagar-pith.jpg" alt="Bhagar Pith"><div><h3>उपवासाचे भगर पीठ</h3><p>Barnyard Millet Flour</p></div></article>
+    <article><img src="assets/lasni-chivda.jpg" alt="Lasni Chivda"><div><h3>लसणी चिवडा</h3><p>Lasni Chivda</p></div></article>
+    <article><img src="assets/shev-chivda.jpg" alt="Shev Chivda"><div><h3>शेव चिवडा</h3><p>Shev Chivda</p></div></article>
+  </div>
 </section>
-<section id="about" class="section alt"><h2>About PALSONA FOODS</h2><p>Quality grocery products made with traditional recipes and hygienic processing.</p></section>
-<section class="section"><h2>Manufacturing Process</h2><div class="timeline"><span>Raw Material</span><span>Cleaning</span><span>Grinding</span><span>Packing</span><span>Delivery</span></div></section>
-<section id="contact" class="footer"><h2>Contact</h2><p>Maharashtra, India</p></section>
+
+<section id="about" class="about-section">
+  <div class="section-title"><h2>About PALSONA FOODS</h2></div>
+  <p>PALSONA FOODS is engaged in manufacturing, processing and packaging of spices, flours, namkeen and other food products with focus on traditional taste and quality.</p>
+</section>
+
+<section id="contact" class="contact-page">
+  <div class="contact-hero">
+    <div class="contact-hero-inner"><h1>Contact Us</h1><div class="hero-decor"><span></span><b>❧</b><span></span></div></div>
+  </div>
+  <div class="contact-content">
+    <aside class="contact-details">
+      <h2>Contact Details</h2><div class="orange-line"></div>
+      <div class="detail-item"><div class="icon">●</div><div><h3>Address</h3><p>PALSONA FOODS<br>At/Post-Wagholi<br>Taluka- Malshiras<br>District- Solapur<br>Maharashtra, India-413112</p></div></div>
+      <div class="detail-item"><div class="icon">☎</div><div><h3>Customer Care No.</h3><p><a href="tel:+919881364631">+91 9881364631</a></p></div></div>
+      <div class="detail-item"><div class="icon">✉</div><div><h3>Customer Care Email</h3><p><a href="mailto:palsonafoods@gmail.com">palsonafoods@gmail.com</a></p></div></div>
+    </aside>
+    <section class="contact-form-wrap">
+      <h2>Contact Us</h2><div class="orange-line"></div>
+      <form id="form">
+        <div class="formgroup"><label for="enquiry">Enquiry Type <em>*</em></label><select id="enquiry" name="enquiryType" required><option>Distributor Enquiry</option><option>Franchise Enquiry</option><option>Customer Feedback</option></select></div>
+        <div class="two"><div class="formgroup"><label for="name">Name <em>*</em></label><input id="name" name="name" placeholder="Enter your name" required></div><div class="formgroup"><label for="city">City <em>*</em></label><input id="city" name="city" placeholder="Enter your city" required></div></div>
+        <div class="two"><div class="formgroup"><label for="state">State <em>*</em></label><input id="state" name="state" placeholder="Enter your state" required></div><div class="formgroup"><label for="mobile">Mobile Number <em>*</em></label><input id="mobile" name="mobile" type="tel" inputmode="numeric" placeholder="Enter your mobile number" required></div></div>
+        <div class="formgroup"><label for="comment">Comment <em>*</em></label><textarea id="comment" name="comment" rows="5" placeholder="Enter your comment" required></textarea></div>
+        <button type="submit">SUBMIT</button><p id="note" aria-live="polite"></p>
+      </form>
+    </section>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div class="footer-brand"><img src="assets/palsona-logo.png" alt="PALSONA FOODS"></div>
+    <div><h3>Quick Links</h3><a href="#home">› Home</a><a href="#products">› Products</a><a href="#about">› About Us</a><a href="#contact">› Contact Us</a></div>
+    <div><h3>Our Products</h3><a href="#products">› Spices</a><a href="#products">› Pulses</a><a href="#products">› Grocery Products</a><a href="#products">› Millet Products</a></div>
+    <div><h3>Contact Info</h3><p>● &nbsp; At/Post-Wagholi, Taluka- Malshiras,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; District- Solapur, Maharashtra, India-413112</p><p>☎ &nbsp; +91 9881364631</p><p>✉ &nbsp; palsonafoods@gmail.com</p></div>
+  </div>
+  <div class="copyright">© 2026 PALSONA FOODS. All Rights Reserved.</div>
+</footer>
 <script src="script.js"></script>
 </body></html>
