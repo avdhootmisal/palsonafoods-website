@@ -18,7 +18,7 @@
 
 <main id="home">
 <section class="hero">
-  <div class="slide active" style="background-image:url('assets/kala-tikhat.jpg')"><div class="overlay"><h1>Authentic Taste of Maharashtra</h1><p>Manufacturing • Processing • Packaging</p><a href="#products">Explore Products</a></div></div>
+  <div class="slide" style="background-image:url('assets/kala-tikhat.jpg')"><div class="overlay"><h1>Authentic Taste of Maharashtra</h1><p>Manufacturing • Processing • Packaging</p><a href="#products">Explore Products</a></div></div>
   <div class="slide" style="background-image:url('assets/turmeric.jpg')"><div class="overlay"><h1>Pure Ingredients.<br>Trusted Quality.</h1><p>Carefully selected and hygienically packed.</p><a href="#products">Explore Products</a></div></div>
   <div class="slide" style="background-image:url('assets/lasni-chivda.jpg')"><div class="overlay"><h1>Traditional Taste.<br>Everyday Joy.</h1><p>Discover PALSONA favourites for every kitchen.</p><a href="#products">Explore Products</a></div></div>
   <button class="prev" aria-label="Previous slide">‹</button><button class="next" aria-label="Next slide">›</button><div class="dots"></div>
@@ -26,10 +26,37 @@
 
 <section id="products" class="section products-section">
   <div class="section-title"><h2>Our Products</h2><p>Traditional flavours and everyday food products.</p></div>
+
+  <article class="featured-product bhagar-featured">
+    <div class="bhagar-slider" aria-label="Bhagar Pith product image slideshow">
+      <div class="bhagar-slide active"><img src="assets/bhagar-pith-package.png" alt="PALSONA उपवासाचे भगर पीठ product pack"></div>
+      <div class="bhagar-slide"><img src="assets/bhagar-pith-front.jpg" alt="PALSONA Bhagar Pith front pack"></div>
+      <div class="bhagar-slide"><img src="assets/bhagar-pith-back.jpg" alt="PALSONA Bhagar Pith back pack and product information"></div>
+      <div class="bhagar-slide"><img src="assets/bhagar-pith-detailed.png" alt="PALSONA Bhagar Pith detailed product presentation"></div>
+      <div class="bhagar-slide"><img src="assets/bhagar-pith-nutritional-info.jpg" alt="Bhagar Pith nutritional information"></div>
+      <button class="bhagar-prev" type="button" aria-label="Previous Bhagar Pith image">&#10094;</button>
+      <button class="bhagar-next" type="button" aria-label="Next Bhagar Pith image">&#10095;</button>
+      <div class="bhagar-slider-dots" aria-label="Bhagar Pith image navigation"></div>
+      <div class="bhagar-slide-count"><span class="current">1</span> / <span class="total">5</span></div>
+    </div>
+    <div class="featured-copy">
+      <span class="featured-label">PALSONA'S FEATURED PRODUCT</span>
+      <h3>उपवासाचे भगर पीठ</h3>
+      <p class="featured-english">Premium Barnyard Millet Flour</p>
+      <p>Carefully selected and hygienically packed Barnyard Millet flour from PALSONA FOODS — a trusted choice for fasting and everyday wholesome meals.</p>
+      <ul class="bhagar-highlights" aria-label="Bhagar Pith product highlights">
+        <li>भगर पासून बनवलेले.</li>
+        <li>ग्लुटेन फ्री <span>(Gluten Free)</span></li>
+        <li>पचायला सोपे</li>
+        <li>उपवासासाठी उत्तम</li>
+      </ul>
+      <div class="featured-badges"><span>100% Quality Checked</span><span>Net Weight: 500 g</span></div>
+    </div>
+  </article>
+
   <div class="products">
     <article><img src="assets/kala-tikhat.jpg" alt="Kala Tikhat"><div><h3>काळं तिखट</h3><p>Kala Tikhat</p></div></article>
     <article><img src="assets/turmeric.jpg" alt="Turmeric"><div><h3>हळद</h3><p>Turmeric Powder</p></div></article>
-    <article><img src="assets/bhagar-pith.jpg" alt="Bhagar Pith"><div><h3>उपवासाचे भगर पीठ</h3><p>Barnyard Millet Flour</p></div></article>
     <article><img src="assets/lasni-chivda.jpg" alt="Lasni Chivda"><div><h3>लसणी चिवडा</h3><p>Lasni Chivda</p></div></article>
     <article><img src="assets/shev-chivda.jpg" alt="Shev Chivda"><div><h3>शेव चिवडा</h3><p>Shev Chivda</p></div></article>
   </div>
@@ -48,13 +75,13 @@
     <aside class="contact-details">
       <h2>Contact Details</h2><div class="orange-line"></div>
       <div class="detail-item"><div class="icon">●</div><div><h3>Address</h3><p>PALSONA FOODS<br>At/Post-Wagholi<br>Taluka- Malshiras<br>District- Solapur<br>Maharashtra, India-413112</p></div></div>
-      <div class="detail-item"><div class="icon">☎</div><div><h3>Customer Care No.</h3><p><a href="tel:+919881364631">+91 9881364631</a></p></div></div>
-      <div class="detail-item"><div class="icon">✉</div><div><h3>Customer Care Email</h3><p><a href="mailto:palsonafoods@gmail.com">palsonafoods@gmail.com</a></p></div></div>
+      <div class="detail-item"><div class="icon">☎</div><div><h3>Customer Care No.</h3><p>+91 9881364631</p></div></div>
+      <div class="detail-item"><div class="icon">✉</div><div><h3>Customer Care Email</h3><p>palsonafoods@gmail.com</p></div></div>
     </aside>
     <section class="contact-form-wrap">
       <h2>Contact Us</h2><div class="orange-line"></div>
       <form id="form">
-        <div class="formgroup"><label for="enquiry">Enquiry Type <em>*</em></label><select id="enquiry" name="enquiryType" required><option>Distributor Enquiry</option><option>Franchise Enquiry</option><option>Customer Feedback</option></select></div>
+        <div class="formgroup"><label for="enquiry">Enquiry Type <em>*</em></label><select id="enquiry" name="enquiryType" required><option>Distributor Enquiry</option><option>Customer Feedback</option></select></div>
         <div class="two"><div class="formgroup"><label for="name">Name <em>*</em></label><input id="name" name="name" placeholder="Enter your name" required></div><div class="formgroup"><label for="city">City <em>*</em></label><input id="city" name="city" placeholder="Enter your city" required></div></div>
         <div class="two"><div class="formgroup"><label for="state">State <em>*</em></label><input id="state" name="state" placeholder="Enter your state" required></div><div class="formgroup"><label for="mobile">Mobile Number <em>*</em></label><input id="mobile" name="mobile" type="tel" inputmode="numeric" placeholder="Enter your mobile number" required></div></div>
         <div class="formgroup"><label for="comment">Comment <em>*</em></label><textarea id="comment" name="comment" rows="5" placeholder="Enter your comment" required></textarea></div>
